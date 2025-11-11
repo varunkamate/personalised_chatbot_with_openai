@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #set_up_api
-openai.api_key=os.getenv("OPENAI_API_KEY")
+openai.api_key=os.getenv("you_api_key")
 
 #creating function for it
 def chatbot_response(prompt):
@@ -36,4 +36,5 @@ while True:
     else:
         response=chatbot_response(user_input)
         print("cahtbot",response)
+
         
