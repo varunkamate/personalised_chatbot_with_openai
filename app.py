@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Load API key
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("Your_Api_Key")
 
 # App title
 st.set_page_config(page_title="ChatBot with OpenAI", page_icon="🤖", layout="centered")
@@ -52,3 +52,4 @@ if user_input:
 for message in st.session_state.messages[1:]:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
+
