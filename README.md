@@ -17,3 +17,5 @@ To run the Streamlit Web App: streamlit run app.py
 To run the Terminal OpenAI Chatbot: python chatbot_with_openai.py
 
 To run the Terminal NLTK Chatbot: python chatbot.py
+
+<img width="1527" height="854" alt="Screenshot 2025-11-25 230700" src="https://github.com/user-attachments/assets/08535e0c-334a-41dd-a975-20aee77a2973" />
