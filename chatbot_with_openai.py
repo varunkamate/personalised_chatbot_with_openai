@@ -8,6 +8,7 @@ load_dotenv()
 openai.api_key=os.getenv("you_api_key")
 
 #creating function for it
+
 def chatbot_response(prompt):
     try:
         response=openai.ChatCompletion.create(
@@ -38,3 +39,4 @@ while True:
         print("cahtbot",response)
 
         
+
